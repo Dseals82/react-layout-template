@@ -14,3 +14,37 @@ export const homeObjOne = {
     primary: true,
     darkText: false
 }
+
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Unlimited Access',
+    headline: 'Login to your account at any time',
+    description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
+    buttonLabel: 'Learn More',
+    imgStart: true,
+    img: require('../../images/svg-2.svg').default,
+    alt: 'Globe',
+    dark: false,
+    primary: false,
+    darkText: true
+}
+
+export const homeObjThree = {
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'join our Team',
+    headline: 'Creating an account is extremely easy',
+    description: "Get everything set up and redy in under 10 minutes.  All you need to do is add your information and you'ready to go.",
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../images/svg-3.svg').default,
+    alt: 'Phone',
+    dark: false,
+    primary: false,
+    darkText: true
+}

@@ -3,7 +3,8 @@ import DropDownMenu  from '../components/DropDownMenu';
 import React, { useState } from 'react';
 import Hero from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
-import { homeObjOne } from '../components/InfoSection/Data';
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
+import Services from '../components/Services';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,9 @@ const Home = () => {
           <Navbar toggle={toggle} />  
           <Hero />
           <InfoSection {...homeObjOne}/>
+          <InfoSection {...homeObjTwo}/>
+          <Services />
+          <InfoSection {...homeObjThree}/>
         </>
     )
 }
