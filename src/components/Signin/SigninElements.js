@@ -2,7 +2,7 @@ import styled from  'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    background: #01bf71;
+    background: #5fa2a2;
     min-height: 692px;
     position: fixed;
     bottom: 0;
@@ -91,16 +91,24 @@ export const FormInput = styled.input`
         margin-bottom: 32px;
         border: none;
         border-radius: 4px;
+
+        &:focus {
+            outline: none;
+        }
 `;
 
 export const FormButton = styled.button`
-        background: #01bf71;
+        background: #5fa2a2;
         padding: 16px 0;
         border: none;
         border-radius: 4px;
         color: #ff;
         font-size: 20px;
         cursor: pointer;
+
+        &:hover {
+            color:#fff;
+        }
 `;
 
 export const Text = styled.span`

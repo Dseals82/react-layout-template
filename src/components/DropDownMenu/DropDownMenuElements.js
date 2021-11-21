@@ -61,7 +61,7 @@ export const DropDownMenuLink = styled(LinkScroll)`
     cursor: pointer;
 
     &:hover {
-        color:#01bf71;
+        color:#5fa2a2;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -73,7 +73,7 @@ export const DropDownMenuBtnWrap = styled.div`
 
 export const DropDownMenuRoute = styled(LinkRouter)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #5fa2a2;
     white-space:nowrap;
     padding:16px 64px;
     color:#010606;
@@ -86,7 +86,7 @@ export const DropDownMenuRoute = styled(LinkRouter)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        backgound: #fff;
+        background: #fff;
         color: #010606;
     }
 `;
