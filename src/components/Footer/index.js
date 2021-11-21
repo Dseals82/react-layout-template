@@ -53,7 +53,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            Logo
+                            vBank
                         </SocialLogo>
                         <WebsiteRights>Logo &copy; {new Date().getFullYear()} ALL rights reserved.</WebsiteRights>
                         <SocialIcons>
