@@ -61,7 +61,7 @@ export const FooterLink = styled(Link)`
     font-size: 14px;
 
     &:hover {
-        color: #01bf71;
+        color: #5FA2A2;
         transition: 0.3s ease-out;
     }
 `;
@@ -93,6 +93,10 @@ export const SocialLogo = styled(Link)`
     align-items: center;
     margin-bottom:16px;
     font-weight: bold;
+
+    &:hover {
+        color: #5fa2a2;
+    }
 `;
 
 export const WebsiteRights = styled.small`
@@ -110,4 +114,8 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+
+    &:hover {
+        color: #5fa2a2;
+    }
 `;
