@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Video from '../../video/blue.mp4';
+import VideoSmall from '../../video/blueSmall.mov';
 import { Button } from '../ButtonElements';
 import { 
     HeroContainer, 
@@ -17,12 +18,20 @@ const Hero = () => {
     const onHover = () => {
         setHover(!hover)
     }
+
+    let getVideoSrc = width => {
+        if (width >= 1080) return Video;
+        if (width >= 720) return Video;
+        return VideoSmall;
+      };
+      const src = getVideoSrc(window.innerWidth);
     return (
         <HeroContainer id='home'>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'>
-
-                </VideoBg>
+                
+        
+                <VideoBg autoPlay loop muted src={src} type='video/mov'></VideoBg>
+                
             </HeroBg>
             <HeroContent>
                 <HeroH1> Virtual Banking Made Easy</HeroH1>
